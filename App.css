@@ -1,0 +1,63 @@
+app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #1f2937;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background: #f9fafb;
+}
+
+.repository-list {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.repository-list .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repository-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.repository-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.repository-list li:last-child {
+  border-bottom: none;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
